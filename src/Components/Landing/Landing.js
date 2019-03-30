@@ -33,11 +33,13 @@ class Landing extends Component {
 	
 	render() {
 		return(
-			<div className="videoContainer">
-				<iframe 
-				src="https://www.dailymotion.com/embed/video/x7506bn?autoplay=1" 
-				 allow="autoplay">
-				</iframe>
+			<div className="body">
+				<div className="videoContainer">
+					<iframe 
+					src="https://www.dailymotion.com/embed/video/x7506bn?autoplay=1" 
+					allow="autoplay">
+					</iframe>
+				</div>
 			</div>
 		
 		)

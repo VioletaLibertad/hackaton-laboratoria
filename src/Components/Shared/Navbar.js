@@ -21,11 +21,11 @@ export class BottomFixedNavbar extends Component {
 export class TopFixedNavbar extends Component {
   render(){
     return(
-      <div className="navbar-wrapper">
+      <div className="topBar-container">
         <Nav className="nav fixed-top">
-          <NavLink href="/comunidad"><FontAwesomeIcon className="nav-icons" icon="chevron-left" /></NavLink>
-          <h4>Ingenierías</h4>
-          <NavLink href="/perfil"><FontAwesomeIcon className="nav-icons" icon="bell"/></NavLink>
+          <NavLink href="/comunidad"><FontAwesomeIcon className="nav-icons flecha" icon="chevron-left" /></NavLink>
+          <h4 className="titulo">Descubre</h4>
+          <NavLink href="/perfil"><FontAwesomeIcon className="nav-icons campana" icon="bell"/></NavLink>
         </Nav>
       </div>
     )
