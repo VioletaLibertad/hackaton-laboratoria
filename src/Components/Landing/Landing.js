@@ -34,20 +34,11 @@ class Landing extends Component {
 	
 	render() {
 		return(
-			<div>
-			{!this.state.redirect && (
-						<div className="videoContainer">
-						<ReactPlayer url='https://www.dailymotion.com/embed/video/x7506bn?autoplay=1?mute=1' 
-						playing= {true}
-						controls= {true}
-						loop={false}
-						onEnded= {e => this.endVideo(e)}
-						/>
-					</div>
-			)}
-		{this.state.redirect && (
-				<Redirect to='/login' />
-			)}
+			<div className="videoContainer">
+				<iframe 
+				src="https://www.dailymotion.com/embed/video/x7506bn?autoplay=1" 
+				 allow="autoplay">
+				</iframe>
 			</div>
 		
 		)
