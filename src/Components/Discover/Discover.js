@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import FixedNavbar from '../Shared/Navbar';
 
 class Discover extends Component {
   render(){
     return(
-      <p>Este es Discover</p>
+      <div>
+        <p>Este es Discover</p>
+        <FixedNavbar/>
+      </div>
     )
   }
 }
