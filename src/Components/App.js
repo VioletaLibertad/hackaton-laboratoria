@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 // import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faUsers, faUser, faBookOpen } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faUser, faBookOpen, faLock } from '@fortawesome/free-solid-svg-icons';
 import Login from './Login/Login';
 import Discover from './Discover/Discover';
 import Community from './Community/Community';
@@ -11,14 +11,14 @@ import Landing from './Landing/Landing';
 import Engineering from './Engineering/Engineering';
 import './App.css';
 
-library.add(faUsers, faUser, faBookOpen);
+library.add(faUsers, faUser, faBookOpen, faLock);
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Router>
-          {/* <Route exact path="/" component={Landing}/> */}
+          <Route exact path="/" component={Landing}/>
           <Route path="/login" component={Login}/>
           <Route path="/descubre" component={Discover}/>
           <Route path="/comunidad" component={Community}/>

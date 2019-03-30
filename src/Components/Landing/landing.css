@@ -1,5 +1,7 @@
 .videoContainer{
+  width: 56%;
   height: 100%;
-  width: 100%;
-  position: fixed;
+  padding-right: 50%;
+  padding-left: 3%;
+  padding-top: 65%;
 }
