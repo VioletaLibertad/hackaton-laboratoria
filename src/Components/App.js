@@ -8,7 +8,7 @@ import Login from './Login/Login';
 import Discover from './Discover/Discover';
 import Community from './Community/Community';
 import Profile from './Profile/Profile';
-// import Landing from './Landing/Landing';
+import Landing from './Landing/Landing';
 
 library.add(faIgloo)
 
@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          {/* <Route path="/" component={Landing}/> */}
+          <Route path="/" component={Landing}/>
           <Route path="/login" component={Login}/>
           <Route path="/descubre" component={Discover}/>
           <Route path="/comunidad" component={Community}/>
