@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import './Discover2.css'
 import FixedNavbar from '../Shared/Navbar';
 import Science from '../../img/science.png';
 import Maths from '../../img/math.png';
@@ -11,10 +12,10 @@ class Discover extends Component {
     return(
       <div>
         <div className="boxes-wrapper">
-          <Link to="/descubre/ingenierias"><img src={Engineer} alt="Engineer"/></Link>
-          <img src={Science} alt="science"/>
-          <img src={Maths} alt="Maths"/>
-          <img src={Tech} alt="Tech"/>
+          <Link  to="/descubre/ingenierias"><img className="cards eng" src={Engineer} alt="Engineer"/></Link>
+          <img className="cards scn" src={Science} alt="science"/>
+          <img className="cards mat" src={Maths} alt="Maths"/>
+          <img className="cards tec" src={Tech} alt="Tech"/>
         </div>
         <FixedNavbar/>
       </div>
