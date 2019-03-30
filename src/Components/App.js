@@ -8,6 +8,7 @@ import Discover from './Discover/Discover';
 import Community from './Community/Community';
 import Profile from './Profile/Profile';
 import Landing from './Landing/Landing';
+import Engineering from './Engineering/Engineering';
 import './App.css';
 
 library.add(faUsers, faUser, faBookOpen, faLock);
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path="/descubre" component={Discover}/>
           <Route path="/comunidad" component={Community}/>
           <Route path="/perfil" component={Profile}/>
+          <Route path="/descubre/ingenierias" component={Engineering} />
         </Router>
       </div>
     );
