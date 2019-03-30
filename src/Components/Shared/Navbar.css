@@ -1,0 +1,17 @@
+.navbar-wrapper {
+  width: 100vw;
+  height: 10vh;
+  position: fixed;
+  border-top: 3px || #979797;
+}
+
+.nav-icons {
+  color: #555B92;
+  font-size: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.nav-icons :hover {
+  color: #E8D258;
+}

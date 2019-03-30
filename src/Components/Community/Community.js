@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import FixedNavbar from '../Shared/Navbar';
 
 class Community extends Component {
   render(){
     return(
-      <p>Este es Community</p>
+      <div>
+        <p>Este es Community</p>
+        <FixedNavbar />
+      </div> 
     )
   }
 }
