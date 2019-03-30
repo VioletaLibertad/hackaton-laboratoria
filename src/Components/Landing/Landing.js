@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import './landing.css';
 
 class Landing extends Component {
@@ -34,10 +35,8 @@ class Landing extends Component {
 	render() {
 		return(
 			<div className="videoContainer">
-				<iframe 
-				src="https://www.dailymotion.com/embed/video/x7506bn?autoplay=1" 
-				 allow="autoplay">
-				</iframe>
+				<iframe src="https://www.dailymotion.com/embed/video/x7506bn?autoplay=1?muted=1" allowfullscreen allow="autoplay"/>
+				<Link className="landing-button" to="/login">Conócenos</Link>
 			</div>
 		
 		)
