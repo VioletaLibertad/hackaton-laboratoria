@@ -1,0 +1,32 @@
+.cards{
+  -webkit-box-shadow: 0 3px 2px #777;
+	-moz-box-shadow: 0 3px 2px #777;
+	box-shadow: 0 3px 2px #777;
+  width: 40%;
+  border-radius: 25px;
+}
+
+.eng{
+  position: fixed;
+  left: 15px;
+  top: 200px;
+}
+
+.scn{
+  position: fixed;
+  top: 200px;
+  right: 25px;
+}
+
+.mat{
+  position: fixed;
+  top: 350px;
+  right: 25px;
+}
+
+.tec{
+  position: fixed;
+  top: 350px;
+  left: 14px;
+  
+}
