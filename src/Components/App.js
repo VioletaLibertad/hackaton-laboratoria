@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {BrowserRouter as Router, Route } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 // import { fab } from '@fortawesome/free-brands-svg-icons';
-import { faUsers, faUser, faBookOpen, faLock } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faUser, faBookOpen, faLock, faBell } from '@fortawesome/free-solid-svg-icons';
 import Login from './Login/Login';
 import Discover from './Discover/Discover';
 import Community from './Community/Community';
@@ -10,7 +10,7 @@ import Profile from './Profile/Profile';
 import Landing from './Landing/Landing';
 import './App.css';
 
-library.add(faUsers, faUser, faBookOpen, faLock);
+library.add(faUsers, faUser, faBookOpen, faLock, faBell);
 
 class App extends Component {
   render() {
