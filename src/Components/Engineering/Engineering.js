@@ -6,7 +6,7 @@ class Engineering extends Component {
     return(
       <div>
         <TopFixedNavbar />
-        <p>sjkngflsdkjgndslfkjgndslfkjgn</p>
+        <p>Descubre</p>
         <BottomFixedNavbar />
       </div>
     )
