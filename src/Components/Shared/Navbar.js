@@ -4,7 +4,7 @@ import { Nav, NavLink } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Navbar.css';
 
-class FixedNavbar extends Component {
+export class BottomFixedNavbar extends Component {
   render(){
     return(
       <div className="navbar-wrapper">
@@ -18,4 +18,16 @@ class FixedNavbar extends Component {
   }
 }
 
-export default FixedNavbar;
+export class TopFixedNavbar extends Component {
+  render(){
+    return(
+      <div className="navbar-wrapper">
+        <Nav className="nav fixed-top">
+          <NavLink href="/comunidad"><FontAwesomeIcon className="nav-icons" icon="chevron-left" /></NavLink>
+          <h4>Ingenierías</h4>
+          <NavLink href="/perfil"><FontAwesomeIcon className="nav-icons" icon="bell"/></NavLink>
+        </Nav>
+      </div>
+    )
+  }
+}
