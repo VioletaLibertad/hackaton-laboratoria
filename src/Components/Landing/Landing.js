@@ -37,7 +37,7 @@ class Landing extends Component {
 			<div>
 			{!this.state.redirect && (
 						<div className="videoContainer">
-						<ReactPlayer url='https://www.dailymotion.com/embed/video/x7506bn' 
+						<ReactPlayer url='https://www.dailymotion.com/embed/video/x7506bn?autoplay=1?mute=1' 
 						playing= {true}
 						controls= {true}
 						loop={false}
