@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom'
-import ReactPlayer from 'react-player'
 import './landing.css';
 
 class Landing extends Component {
