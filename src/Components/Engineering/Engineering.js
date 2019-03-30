@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import FixedNavbar from '../Shared/Navbar';
+import {BottomFixedNavbar, TopFixedNavbar} from '../Shared/Navbar';
 
 class Engineering extends Component {
   render(){
     return(
       <div>
-        
-        <FixedNavbar />
+        <TopFixedNavbar />
+        <p>sjkngflsdkjgndslfkjgndslfkjgn</p>
+        <BottomFixedNavbar />
       </div>
     )
   }
